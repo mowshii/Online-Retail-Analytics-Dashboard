@@ -1,0 +1,18 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Streamlit configuration
+.streamlit/secrets.toml
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local dataset - do not upload the large Excel file
+data/
